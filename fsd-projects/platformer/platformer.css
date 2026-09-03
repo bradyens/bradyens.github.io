@@ -8,7 +8,7 @@ body {
 }
 
 canvas {
-  background-color: #b3d8d7;
+  background-image: linear-gradient(45deg, black, #34144b);
   margin: 20px;
   border-radius: 15px;
   border: 5px solid rgba(118, 0, 233, 0.375);

@@ -31,23 +31,23 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-   createPlatform(125, 370, 25, 275, "black")
-   createPlatform(150, 635, 10, 10, "black")
-   createPlatform(150, 505, 30, 10, "black")
-   createPlatform(400, 350, 5, 200, "black")
-   createPlatform(400, 0, 5, 230, "black")
-   createPlatform(600, 175, 40, 10, "black", 600, 600, 0, 10, 250, 2 )
-   createPlatform(600, 0, 5, 100, "black")
-   createPlatform(640, 0, 5, 230, "black")
-   createPlatform(800, 250, 60, 15, "black")
-   createPlatform(800, 250, 10, 150, "black")
-   createPlatform(800, 400, 60, 15, "black")
+   createPlatform(125, 370, 25, 275, "rgb(118, 0, 233)")
+   createPlatform(150, 635, 10, 10, "rgb(118, 0, 233)")
+   createPlatform(150, 505, 30, 10, "rgb(118, 0, 233)")
+   createPlatform(400, 350, 5, 200, "rgb(118, 0, 233)")
+   createPlatform(400, 0, 5, 230, "rgb(118, 0, 233)")
+   createPlatform(600, 175, 40, 10, "rgb(118, 0, 233)", 600, 600, 0, 10, 250, 2 )
+   createPlatform(600, 0, 5, 100, "rgb(118, 0, 233)")
+   createPlatform(640, 0, 5, 230, "rgb(118, 0, 233)")
+   createPlatform(800, 250, 60, 15, "rgb(118, 0, 233)")
+   createPlatform(800, 250, 10, 150, "rgb(118, 0, 233)")
+   createPlatform(800, 400, 60, 15, "rgb(118, 0, 233)")
    createBadPlatform(960, 10, 15, 150, "red")
    createBadPlatform(735, 300, 15, 85, "red")
-   createPlatform(750, 370, 60, 15, "black")
-   createPlatform(1075, 300, 60, 15, "black")
-   createBadPlatform(1200, 250, 10, 30, "red")
-   createBadPlatform(1200, 75, 10, 30, "red")
+   createPlatform(750, 370, 60, 15, "rgb(118, 0, 233)")
+   createPlatform(1075, 300, 60, 15, "rgb(118, 0, 233)")
+   createBadPlatform(1200, 270, 10, 30, "red")
+   createBadPlatform(1200, 60, 10, 30, "red")
 
 
 
