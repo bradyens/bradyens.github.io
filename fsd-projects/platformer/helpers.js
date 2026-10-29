@@ -691,7 +691,7 @@ function winGame() {
   );
   ctx.font = "500% serif";
   ctx.fillText(
-    "you chaeted",
+    "WINNAR",
     canvas.width / 4,
     canvas.height / 6 + canvas.height / 3,
     (canvas.width / 16) * 14

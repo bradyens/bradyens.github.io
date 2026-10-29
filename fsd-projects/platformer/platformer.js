@@ -27,15 +27,15 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid();
+    //   toggleGrid();
 
 
     // TODO 2 - Create Platforms
    createPlatform(125, 370, 25, 275, "rgb(118, 0, 233)")
-   createPlatform(150, 635, 10, 10, "rgb(118, 0, 233)")
+   createPlatform(150, 635, 18, 10, "rgb(118, 0, 233)")
    createPlatform(150, 505, 30, 10, "rgb(118, 0, 233)")
-   createPlatform(400, 350, 5, 200, "rgb(118, 0, 233)")
-   createPlatform(400, 0, 5, 230, "rgb(118, 0, 233)")
+   createPlatform(400, 355, 8, 500, "rgb(118, 0, 233)")
+   createPlatform(400, 0, 7, 230, "rgb(118, 0, 233)")
    createPlatform(600, 175, 40, 10, "rgb(118, 0, 233)", 600, 600, 0, 10, 250, 2 )
    createPlatform(600, 0, 5, 100, "rgb(118, 0, 233)")
    createPlatform(640, 0, 5, 230, "rgb(118, 0, 233)")
@@ -48,21 +48,30 @@ $(function () {
    createPlatform(1075, 300, 60, 15, "rgb(118, 0, 233)")
    createBadPlatform(1200, 270, 10, 30, "red")
    createBadPlatform(1200, 60, 10, 30, "red")
+   createBadPlatform(405, 450, 850, 10, "red")
+   createPlatform(405, 460, 850, 20, "rgb(118, 0, 233)")
+   createBadPlatform(405, 730, 820, 10, "red")
+   createPlatform(600, 175, 75, 10, "rgb(118, 0, 233)", 950, 1150, 3, 500, 700, 3 )
+   createPlatform(600, 175, 75, 10, "rgb(118, 0, 233)", 945, 1145, 3, 495, 695, 3 )
+    createPlatform(600, 175, 75, 10, "rgb(118, 0, 233)", 940, 1140, 3, 490, 690, 3 )
+     createPlatform(600, 175, 75, 10, "rgb(118, 0, 233)", 935, 1135, 3, 485, 685, 3 )
+        createPlatform(760, 700, 223, 10, "rgb(118, 0, 233)")
+        createPlatform(600, 175, 10, 100, "rgb(118, 0, 233)", 550, 850, 25, 500, 500, 0 )
 
 
 
     // TODO 3 - Create Collectables
     createCollectable("steve", 350, 100)
     createCollectable("steve", 755, 320)
-    createCollectable("steve", 1300, 225)
+    createCollectable("steve", 410, 600)
+
 
 
 
     
     // TODO 4 - Create Cannons
     createCannon("top", 100, 800);
-    createCannon("right", 650, 200, 150, 150, 700, 500, 20);
-    createCannon("right", 200, 3789, 12, 12, 100, 350, 15)
+     createCannon("right", 200, 3789, 12, 12, 100, 350, 15)
 
 
     
